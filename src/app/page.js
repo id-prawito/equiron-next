@@ -13,18 +13,23 @@ import Clients from "@/components/clients";
 export const metadata = {
   title: "Home | Equiron and Co.",
   description:
-    "Selamat datang di website resmi Nama Perusahaan. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
+    "Selamat datang di website resmi Equiron and Co.. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
   keywords: ["hukum", "bisnis", "konsultasi", "pengacara", "notaris"],
   authors: [{ name: "Equiron and Co." }],
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Equiron and Co. | Trust - Commitment - Accesible",
     description:
-      "Selamat datang di website resmi Nama Perusahaan. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
+      "Selamat datang di website resmi Equiron and Co.. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
     url: "https://equironandco.com",
     type: "website",
+    siteName: "Equiron and Co.",
     images: [
       {
-        url: "https://equironandco.com/img/background-og.png",
+        url: "https://equironandco.com/background-og.png",
         width: 1200,
         height: 630,
         alt: "Equiron and Co.",
@@ -35,8 +40,8 @@ export const metadata = {
     card: "summary_large_image",
     title: "Equiron and Co. | Trust - Commitment - Accesible",
     description:
-      "Selamat datang di website resmi Nama Perusahaan. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
-    images: ["https://equironandco.com/img/background-og.png"],
+      "Selamat datang di website resmi Equiron and Co.. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
+    images: ["https://equironandco.com/background-og.png"],
   },
 };
 
