@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  output: "export", // ini wajib
+  trailingSlash: true, // agar hasil build jadi index.html per folder (lebih compatible)
   images: {
-    unoptimized: true, // ✅ Wajib jika pakai next export
+    unoptimized: true, // wajib kalau pakai <Image /> dan export
   },
   compiler: {
-    styledComponents: true,
+    styledComponents: true, // kalau kamu pakai styled-components
   },
 };
 
