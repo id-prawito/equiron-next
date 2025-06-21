@@ -1,18 +1,32 @@
 export const metadata = {
-  title: {
-    default: "Equiron and Co.",
-    template: "%s | Equiron and Co.",
+  title: "Equiron and Co. | Trust - Commitment - Accesible",
+  description:
+    "Selamat datang di website resmi Nama Perusahaan. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png", // opsional
   },
-  description: "Selamat datang di website resmi Nama Perusahaan.",
   openGraph: {
-    title: "Equiron and Co.",
-    description: "Website resmi Equiron and Co.",
-    images: ["/img/background-og.png"],
+    title: "Equiron and Co. | Trust - Commitment - Accesible",
+    description:
+      "Selamat datang di website resmi Nama Perusahaan. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
+    url: "https://equironandco.com",
+    siteName: "Equiron and Co.",
+    images: [
+      {
+        url: "/background-og.png",
+        width: 1200,
+        height: 630,
+        alt: "OG Image",
+      },
+    ],
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Equiron and Co.",
-    description: "Website resmi Equiron and Co.",
-    images: ["/img/background-og.png"],
+    title: "Equiron and Co. | Trust - Commitment - Accesible",
+    description:
+      "Selamat datang di website resmi Nama Perusahaan. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
+    images: ["/background-og.png"],
   },
 };
