@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone", // opsional
+  output: "export",
   images: {
-    domains: ["equironandco.com"],
+    unoptimized: true, // ✅ Wajib jika pakai next export
   },
   compiler: {
     styledComponents: true,
