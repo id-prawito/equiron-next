@@ -56,7 +56,7 @@ const logoEquironHeaderWhite = "/img/law_stack/header_logo_white.png";
 const hero_background = "/img/law_stack/hero_background.jpg";
 const hero_overlay = "/img/law_stack/hero_overlay.png";
 const hero_about = "/img/law_stack/images_about_2.png";
-const background_og = "/img/background-og.png";
+const background_og = "/background-og.png";
 const logo = "/img/logo.png";
 
 // Flags
