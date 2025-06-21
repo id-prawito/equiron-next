@@ -1,10 +1,11 @@
 export const metadata = {
+  metadataBase: new URL("https://equironandco.com"),
   title: "Equiron and Co. | Trust - Commitment - Accesible",
   description:
     "Selamat datang di website resmi Nama Perusahaan. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
   icons: {
     icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png", // opsional
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "Equiron and Co. | Trust - Commitment - Accesible",
