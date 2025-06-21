@@ -6,6 +6,7 @@ import { useAnimation, motion } from "framer-motion";
 import { ServicesSite } from "./ServicesElements";
 import { SERVICES_DATA_EQUIRON } from "@/config/Data";
 import AppContext from "@/config/AppContext";
+import { Link } from "react-scroll";
 
 const Services = () => {
   const controls = useAnimation();
@@ -68,9 +69,9 @@ const Services = () => {
                 <h3 className="card-title">{service.cardTitle}</h3>
                 <p className="card-desc">{service.cardDesc}</p>
                 {services === 1 && (
-                  <a href="/" className="read-more">
+                  <Link href="/" className="read-more">
                     Read More <span className="arrow">→</span>
-                  </a>
+                  </Link>
                 )}
               </div>
             ))}

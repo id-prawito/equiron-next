@@ -11,6 +11,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css";
 import AppContext from "@/config/AppContext";
+import Link from "next/link";
 
 const Article = () => {
   const controls = useAnimation();
@@ -90,24 +91,24 @@ const Article = () => {
                     <SwiperSlide key={index}>
                       <div className="blog-card">
                         <div className="blog-img">
-                          <a href="/">
+                          <Link href="/">
                             <img src={article.image} alt={article.title} />
-                          </a>
+                          </Link>
                         </div>
                         <div className="blog-content">
                           <div className="blog-meta">
-                            <a href="/">
+                            <Link href="/">
                               <UserIcon /> By {article.author.split(" ")[0]}
-                            </a>
-                            <a href="/">
+                            </Link>
+                            <Link href="/">
                               <CalendarIcon /> {article.date}
-                            </a>
-                            <a href="/">
+                            </Link>
+                            <Link href="/">
                               <CommentIcon /> {article.comments}
-                            </a>
+                            </Link>
                           </div>
                           <h3 className="box-title">
-                            <a href="/">{article.title}</a>
+                            <Link href="/">{article.title}</Link>
                           </h3>
                         </div>
                       </div>
