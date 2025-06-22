@@ -200,7 +200,7 @@ export const HeroSite = styled.section`
       gap: 10px;
       transition: 0.3s all ease;
       font-weight: 500;
-      border: 2px solid #e37d00;
+      border: 2px solid rgb(202 167 104);
 
       ${devices.smartphone} {
         font-size: 12px;

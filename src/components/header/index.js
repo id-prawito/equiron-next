@@ -79,7 +79,8 @@ const Header = () => {
     });
   }, []);
 
-  const { theme } = useContext(AppContext);
+  const { theme, language } = useContext(AppContext);
+  const NAV_DATA = NAVLINKS[language];
 
   return (
     <HeaderSite ref={headerRef}>
@@ -142,7 +143,7 @@ const Header = () => {
                 </div>
               )}
               <ul>
-                {NAVLINKS.map((item, i) => (
+                {NAV_DATA.map((item, i) => (
                   <li key={i}>
                     <motion.div variants={item_nya} className="closing">
                       <div className="color_icon">
@@ -179,7 +180,9 @@ const Header = () => {
                           spy={true}
                           offset={-80}
                         >
-                          FREE KONSULTASI
+                          {language === "id"
+                            ? "FREE KONSULTASI"
+                            : "FREE CONSULTATION"}
                         </NavLinks>
                         <FaArrowRight />
                       </div>

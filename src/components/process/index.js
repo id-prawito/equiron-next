@@ -38,7 +38,7 @@ const Process = () => {
   };
 
   const { language } = useContext(AppContext);
-  const PPROCESS_DATA = PROCESS_DATA_EQUIRON[language];
+  const PROCESS_DATA = PROCESS_DATA_EQUIRON[language];
 
   return (
     <ProcessSite ref={ref} id="process">
@@ -67,10 +67,10 @@ const Process = () => {
           </motion.div>
 
           <motion.div variants={item_nya} className="process-content-flow">
-            <div className="text">{PPROCESS_DATA?.process_text}</div>
-            <div className="title">{PPROCESS_DATA?.process_title}</div>
+            <div className="text">{PROCESS_DATA?.process_text}</div>
+            <div className="title">{PROCESS_DATA?.process_title}</div>
             <div className="process">
-              {PPROCESS_DATA?.process_data_works.map((item, index) => {
+              {PROCESS_DATA?.process_data_works.map((item, index) => {
                 const Icon = item.icon;
                 return (
                   <motion.div
