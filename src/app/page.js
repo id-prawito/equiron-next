@@ -29,7 +29,7 @@ export const metadata = {
     siteName: "Equiron and Co.",
     images: [
       {
-        url: "https://equironandco.com/background-og.png",
+        url: "https://equironandco.com/background-og-new.png",
         width: 1200,
         height: 630,
         alt: "Equiron and Co.",
@@ -41,7 +41,7 @@ export const metadata = {
     title: "Equiron and Co. | Trust - Commitment - Accesible",
     description:
       "Selamat datang di website resmi Equiron and Co.. Kami menyediakan layanan hukum, bisnis, dan konsultasi terpercaya.",
-    images: ["https://equironandco.com/background-og.png"],
+    images: ["https://equironandco.com/background-og-new-twitter.png"],
   },
 };
 
