@@ -84,16 +84,16 @@ export const NAVLINKS = [
     icon: FaEllipsisV,
     name: "PROCESS",
   },
-  {
-    to: "teams",
-    icon: FaEllipsisV,
-    name: "TEAMS",
-  },
-  {
-    to: "article",
-    icon: FaEllipsisV,
-    name: "PUBLICATIONS",
-  },
+  // {
+  //   to: "teams",
+  //   icon: FaEllipsisV,
+  //   name: "TEAMS",
+  // },
+  // {
+  //   to: "article",
+  //   icon: FaEllipsisV,
+  //   name: "PUBLICATIONS",
+  // },
   {
     to: "clients",
     icon: FaEllipsisV,
