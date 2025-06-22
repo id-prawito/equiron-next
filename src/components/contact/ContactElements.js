@@ -279,6 +279,10 @@ export const FormContents = styled.div`
       flex-direction: column;
     }
 
+    ${devices.desktops} {
+      flex-direction: column;
+    }
+
     ${devices.screen_large} {
       flex-direction: column;
     }
