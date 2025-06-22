@@ -46,6 +46,7 @@ export const metadata = {
 };
 
 export default function Home() {
+  const active = 0;
   return (
     <>
       <Header />
@@ -53,8 +54,8 @@ export default function Home() {
       <About />
       <Services />
       <Process />
-      <Teams />
-      <Article />
+      {active === 1 && <Teams />}
+      {active === 1 && <Article />}
       <Clients />
       <Contact />
       <Footer />
