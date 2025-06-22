@@ -68,38 +68,73 @@ import {
   warna_warni_logo,
 } from "./_equironImages";
 
-export const NAVLINKS = [
-  {
-    to: "about",
-    icon: FaEllipsisV,
-    name: "ABOUT",
-  },
-  {
-    to: "services",
-    icon: FaEllipsisV,
-    name: "SERVICES",
-  },
-  {
-    to: "process",
-    icon: FaEllipsisV,
-    name: "PROCESS",
-  },
-  // {
-  //   to: "teams",
-  //   icon: FaEllipsisV,
-  //   name: "TEAMS",
-  // },
-  // {
-  //   to: "article",
-  //   icon: FaEllipsisV,
-  //   name: "PUBLICATIONS",
-  // },
-  {
-    to: "clients",
-    icon: FaEllipsisV,
-    name: "CLIENTS",
-  },
-];
+export const NAVLINKS = {
+  en: [
+    {
+      to: "about",
+      icon: FaEllipsisV,
+      name: "ABOUT",
+    },
+    {
+      to: "services",
+      icon: FaEllipsisV,
+      name: "SERVICES",
+    },
+    {
+      to: "process",
+      icon: FaEllipsisV,
+      name: "PROCESS",
+    },
+    // {
+    //   to: "teams",
+    //   icon: FaEllipsisV,
+    //   name: "TEAMS",
+    // },
+    // {
+    //   to: "article",
+    //   icon: FaEllipsisV,
+    //   name: "PUBLICATIONS",
+    // },
+    {
+      to: "clients",
+      icon: FaEllipsisV,
+      name: "CLIENTS",
+    },
+  ],
+
+  id: [
+    {
+      to: "about",
+      icon: FaEllipsisV,
+      name: "TENTANG",
+    },
+    {
+      to: "services",
+      icon: FaEllipsisV,
+      name: "LAYANAN",
+    },
+    {
+      to: "process",
+      icon: FaEllipsisV,
+      name: "PROSES",
+    },
+    // {
+    //   to: "teams",
+    //   icon: FaEllipsisV,
+    //   name: "TIM",
+    // },
+    // {
+    //   to: "article",
+    //   icon: FaEllipsisV,
+    //   name: "PUBLIKASI",
+    // },
+    {
+      to: "clients",
+      icon: FaEllipsisV,
+      name: "KLIEN",
+    },
+  ],
+};
 
 export const HERO_DATA_EQUIRON = {
   en: {
