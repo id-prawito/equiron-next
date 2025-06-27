@@ -7,8 +7,8 @@ const GlobalStyles = createGlobalStyle`
     --dark-background: #1A1D29;
     --light-background: #EEEEEE;
     --mediumSlateBlue: #b88649;
-    --dark-components: #b88649; // Ungu
-    --darkCardComponent : #b88649; // Ungu
+    --dark-components: #b88649; // Orange
+    --darkCardComponent : #b88649; // Orange
     --lightCardComponent : #1f2937;
     --light-text-black: #000000;
     --dark-text-white: #FFFFFF; // White
@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
     --darkText: #ccd6f6;
     --lightTab : #1f2937;
     --darkTab : #979797;
-    --colorMain : #b88649; // Ungu
+    --colorMain : #b88649; // Orange
     --colorWhite : #ffffff; // White
   }
 
